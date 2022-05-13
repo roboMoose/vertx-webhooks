@@ -51,7 +51,6 @@ public class TestMainVerticle {
   @Test
   void receive_multiple_messages(Vertx vertx, VertxTestContext context) throws Throwable {
     HttpClient client = vertx.createHttpClient();
-
     final AtomicInteger counter = new AtomicInteger(0);
     client.webSocket(8900, "localhost", WebSockerHandler.PATH)
       .onFailure(context::failNow)
