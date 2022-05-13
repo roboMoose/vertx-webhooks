@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.vertx_webhooks.TestMainVerticle" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-13T16:44:17" hostname="Thoms-MBP.home" time="5.227">
+  <properties/>
+  <testcase name="receive_multiple_messages(Vertx, VertxTestContext)" classname="com.example.vertx_webhooks.TestMainVerticle" time="5.227"/>
+  <system-out><![CDATA[?[33m09:44:17.254?[0;39m ?[31mWARN?[0;39m ?[32m[Test worker]?[0;39m ?[36mi.n.resolver.dns.DnsServerAddressStreamProviders?[0;39m - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS.
+?[33m09:44:17.373?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.MainVerticle?[0;39m - HTTP server started on for 8900
+?[33m09:44:17.515?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.WebSockerHandler?[0;39m - Opening WebSocket connection: /ws/simple/prices, __vertx.ws.b5ec52de-e330-422d-ad33-d1d4c6b70cd2
+?[33m09:44:17.533?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Received message: Connected!
+?[33m09:44:17.534?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Not enough messages yet... {0/5}
+?[33m09:44:18.291?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m09:44:18.321?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Received message: {"symbol":"AMZN","value":530}
+?[33m09:44:18.321?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Not enough messages yet... {1/5}
+?[33m09:44:19.290?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m09:44:19.292?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Received message: {"symbol":"AMZN","value":896}
+?[33m09:44:19.293?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Not enough messages yet... {2/5}
+?[33m09:44:20.291?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m09:44:20.293?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Received message: {"symbol":"AMZN","value":814}
+?[33m09:44:20.293?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Not enough messages yet... {3/5}
+?[33m09:44:21.290?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m09:44:21.292?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Received message: {"symbol":"AMZN","value":657}
+?[33m09:44:21.292?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Not enough messages yet... {4/5}
+?[33m09:44:22.291?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m09:44:22.293?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mcom.example.vertx_webhooks.TestMainVerticle?[0;39m - Received message: {"symbol":"AMZN","value":119}
+?[33m09:44:22.304?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.WebSockerHandler?[0;39m - Received message: ?� from client __vertx.ws.b5ec52de-e330-422d-ad33-d1d4c6b70cd2
+?[33m09:44:22.309?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mcom.example.vertx_webhooks.WebSockerHandler?[0;39m - Closed __vertx.ws.b5ec52de-e330-422d-ad33-d1d4c6b70cd2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
